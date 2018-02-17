@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MusicalApplication</string>
+    <string name="playnow_category">Play Now</string>
+    <string name="favourite_category">Favourite</string>
+    <string name="artists_category">Artists</string>
+    <string name="album_category">Albums</string>
+    <string name="buylist_category">Buy Song</string>
+    <string name="textonplaynow">Play Now : playing a colllection of songs you can choice from artist luis ,fonsi and zedd.T startthings off,we will plat caste on the hell.This also can Appear can show details for a song. This can be done by selecting the song and clicking on the Song Details toolbar button. Clicking the song details thumbnail image, if any, displays the full-sie image for the song artwork.  </string>
+    <string name="textonartists">Atists : Many of artists there like childish gambino ,lous fonsi you can choice the artist to choice songs you love   </string>
+    <string name="textonalbum"> Album : There is many album for many artist you can listen to songs in the favourite album </string>
+    <string name="textonfavourite">Favourite : Here the favourite songs you can chice from album and artists toadd in favourite then choice the songs you are prefer to play on.</string>
+    <string name="textonbuylist">Buy Song :The Android Pay API offers a quick and easy path to enable secure, one touch payments in your app using your existing payment infrastructure.Before starting the Android Pay flow, use the isReadyToPay() method.When you use the In-app Billing service to sell an item, whether it is an in-app product or a subscription, Google Play handles all checkout details so your application never has to directly process any financial transactions. Google Play uses the same checkout backend service as is used for application purchases.</string>
+    <string name="textonmainactivity">Mainactivity : Contain many of activites you can choice any activity of them from this home page like play on, Artists, Albums, Favourite Songs,and buy songs to buy any songs you want</string>
+</resources>

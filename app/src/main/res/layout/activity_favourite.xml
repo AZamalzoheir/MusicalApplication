@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/backgroundcolor"
+    tools:context="com.example.amalzoheir.musicalapplication.FavouriteActivity">
+    <TextView
+        android:id="@+id/textViewfavourite"
+        style="@style/subactivitytextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/textonfavourite" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/artistbuttononfavourite"
+            style="@style/subactivitybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist" />
+
+        <Button
+            android:id="@+id/albumbuttonfavourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Album"
+            style="@style/subactivitybutton"/>
+    </LinearLayout>
+</android.widget.RelativeLayout>

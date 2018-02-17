@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context="com.example.amalzoheir.musicalapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MainActivityTextview"
+            style="@style/mainactivitytextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textonmainactivity" />
+
+        <TextView
+            android:id="@+id/playnow"
+            style="@style/mainactivitytextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/playnow_category" />
+
+        <TextView
+            android:id="@+id/favourite"
+            style="@style/mainactivitytextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favourite_category" />
+
+        <TextView
+            android:id="@+id/artists"
+            style="@style/mainactivitytextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/artists_category" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/mainactivitytextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/album_category" />
+
+        <TextView
+            android:id="@+id/buylist"
+            style="@style/mainactivitytextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/buylist_category" />
+
+    </LinearLayout>
+</android.widget.ScrollView>
